@@ -41,7 +41,7 @@ export default function Login() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>💑 커플 가계부</h1>
+        <h1 style={styles.title}>💑 지나,용준 가계부</h1>
         <p style={styles.subtitle}>{isSignUp ? '회원가입' : '로그인'}</p>
 
         <form onSubmit={handleSubmit} style={styles.form}>
